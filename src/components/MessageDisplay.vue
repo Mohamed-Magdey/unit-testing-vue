@@ -1,5 +1,5 @@
 <template>
-  <p v-if="error" data-testid="message-error" {{error}}></p>
+  <p v-if="error" data-testid="message-error">{{ error }}</p>
   <p v-else data-testid="message">{{ message.text }}</p>
 </template>
 
